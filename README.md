@@ -15,8 +15,13 @@ can be combined to predict stock prices using financial time series data.
 - Task 4: Analysis and Evaluation (MSE, RMSE, MAPE, R²)
 
 ## How to Run
-pip install yfinance numpy scipy matplotlib scikit-learn tensorflow
+1. Install requirements:
+pip install numpy scipy matplotlib scikit-learn tensorflow
+
+2. Run the processing and prediction script:
 python stock_pattern_recognition.py
+
+3. Open index.html in any browser to view the interactive dashboard.
 
 ## Output
 All plots are saved in the outputs/ folder.
